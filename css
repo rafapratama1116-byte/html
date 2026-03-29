@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inter', Arial, sans-serif; 
+    font-size: 14px; 
+    background-color: #dcd6d6; 
+    color: #1278de; 
+}
+
+
+h1 {
+    animation: color-change 3s infinite;
+    color: #0a52e0; 
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #eb084d; 
+}
+
+@keyframes color-change { 
+    0% { color: rgb(0, 200, 255); } 
+    50% { color: rgb(0, 26, 255); } 
+    100% { color: rgb(0, 255, 208); }
+}
